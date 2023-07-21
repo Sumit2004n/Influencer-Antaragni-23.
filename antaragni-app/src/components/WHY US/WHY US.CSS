@@ -1,0 +1,39 @@
+WHY US-content{
+    gap: 3rem;
+}
+.WHY US-items-icons img{
+    max-width: 50px;
+}
+.WHY US-item-icon{
+    margin-bottom: 2rem;
+}
+.WHY US-item{
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    transition: var(--transition);
+}
+.WHY US-item-text .text{
+    max-width: 380px;
+}
+.WHY US-item:hover{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+@media screen and (min-width: 578px){
+    .WHY US-item{
+        display: flex;
+        text-align: left;
+    }
+    .WHY US-item-icon{
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200){
+    .WHY US-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
