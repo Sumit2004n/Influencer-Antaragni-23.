@@ -1,0 +1,34 @@
+.Incentives-content{
+    gap: 3rem;
+}
+.Incentives-item{
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    transition: var(--transition);
+}
+.Incentives-item-text .text{
+    max-width: 380px;
+}
+.Incentives-item:hover{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+@media screen and (min-width: 578px){
+    .Incentives-item{
+        display: flex;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Incentives-content{
+            grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Incentives-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

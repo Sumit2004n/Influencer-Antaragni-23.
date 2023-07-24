@@ -1,0 +1,21 @@
+.Responsibilities-content{
+    gap: 3rem;
+}
+.Responsibilities-item{
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    transition: var(--transition);
+}
+.features-item-text .text{
+    max-width: 380px;
+}
+.features-items:hover{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+@media screen and (min-width: 1200px) {
+    .features-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

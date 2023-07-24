@@ -1,0 +1,19 @@
+.Contact-content{
+    gap: 4rem;
+}
+.Contact-item img{
+    max-width: 200px;
+    transition: var(--transition);
+}
+.Contact-item img:hover{
+    transform: scale(1.1);
+}
+.Contact-item p{
+    margin: 2.6rem 0 0.6rem 0;
+}
+
+@media screen and (min-width: 1400px){
+    .Contact-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
